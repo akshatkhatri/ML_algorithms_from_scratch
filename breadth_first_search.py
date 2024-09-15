@@ -82,12 +82,12 @@ grid = [
     [0, 0, 0, 0, 1, 0, 0],
     [0, 0, 1, 0, 1, 0, 0],
     [0, 0, 1, 0, 0, 0, 0],
-    [0, 0, 1, 0, 0, 0, 0],
+    [1, 0, 1, 0, 0, 0, 0],
     [0, 0, 1, 0, 0, 0, 0]
 ]
 
 initial_state = (0,0)
-goal_state = (0,6)
+goal_state = (6,0)
 
 problem = GridProblem(initial_state,goal_state,grid)
 
