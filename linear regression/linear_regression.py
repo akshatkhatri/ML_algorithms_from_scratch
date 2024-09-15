@@ -34,7 +34,7 @@ m = 0
 b = 0
 L = 0.0001
 
-epochs = 1000
+epochs = 500
 
 for i in range(epochs):
     if i % 50 == 0:
