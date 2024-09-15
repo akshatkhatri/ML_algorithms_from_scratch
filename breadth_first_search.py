@@ -101,6 +101,20 @@ if solution_node:
     print_complete_path(solution_path)
 else:
     print("No solution found")
+'''
+Sample Output :
 
+!! Reached the Goal!!
+Solution found!
+Complete Path:
+Step 0: (0, 0)
+Step 1: (1, 0)
+Step 2: (2, 0)
+Step 3: (3, 0)
+Step 4: (4, 0)
+Step 5: (4, 1)
+Step 6: (5, 1)
+Step 7: (6, 1)
+Step 8: (6, 0)
 
-
+'''
